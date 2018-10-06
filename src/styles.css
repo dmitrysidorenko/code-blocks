@@ -11,6 +11,7 @@ body {
   justify-content: flex-start;
   align-items: start;
   align-content: flex-start;
+  flex-direction: column;
 }
 
 pre {
@@ -31,4 +32,12 @@ pre {
 
 .ReactCodeMirror {
   width: 100%;
+}
+
+.btn-plus {
+  padding: 5px 10px;
+  border-radius: 4px;
+  font-size: 16px;
+  line-height: 1;
+  font-weight: 500;
 }
